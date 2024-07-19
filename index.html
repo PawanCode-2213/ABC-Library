@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1ddee84911.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ABC Library | Cozy Reading Spot</title>
+    <meta name="description" content="Welcome to ABC Library. Find your perfect reading spot in our cozy library with comfortable reading seats for students.">
+</head>
+<body>
+    <main class="hero-main header-bar">
+        <header class="header" id="header">
+            <nav class="nav" id="navMenu" aria-label="Main Navigation">
+                <img src="images/logo.png" alt="ABC Library Logo" height="100px" width="auto">
+    
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="cta">Book Seat</button>
+                <i class="fas fa-bars" id="menuToggle" onclick="showMenu()" aria-label="Open Menu"></i>
+                <i class="fas fa-times" id="menuClose" onclick="hideMenu()" aria-label="Close Menu"></i>
+            </nav>
+        </header>
+        <section>
+            <div class="hero-section">
+                <div class="txt-sec-m2">
+                    <h1>Welcome To ABC Library</h1>
+                    <p>Find your perfect reading spot in our cozy library with comfortable reading seats for students.</p>
+                    <button class="cta">Register Now</button>
+                </div>
+                <div class="img-hero">
+                    <img src="https://s3.scoopwhoop.com/anj2/5f33e95218ac8132ba8a7937/eea9a713-4c5f-4c9f-a617-8e0665518bc5.jpg" alt="Library image">
+                </div>
+            </div>
+        </section>
+        <section class="img-scroll">
+            <div class="text-img-scroll">
+                <h1>Explore Our Library</h1>
+                <p>We offer dedicated reading seats that allow students to concentrate and <br>immerse themselves in their studies without any distractions.</p>
+            </div>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <div class="slide">
+                        <img src="images/lib-image.jpg" alt="Library Image">
+                    </div>
+                    <!-- Repeat slide elements as needed -->
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">❮</button>
+                <button class="next" onclick="moveSlide(1)">❯</button>
+            </div>
+        </section>
+
+        <section class="learn-easy-section">
+            <div class="learn-easy-text">
+                <p>STUDY COMFORTABLY</p>
+                <h1>A Perfect Environment for Study and Focus</h1>
+            </div>
+        </section>
+    
+        <section class="learn-easy-grid">
+            <div class="grid-item start-learning">
+                <div class="number">01</div>
+                <div class="content-text">
+                    <h2>Comfortable Seats</h2>
+                    <p>Seats are Comfortable with: <br>Personal Reading Lamps, <br>Power Outlets, <br>Wi-Fi Access</p>
+                </div>
+            </div>
+            <div class="grid-item follow-the-plan">
+                <div class="content-text">
+                    <h2>Safe and Inclusive Space</h2>
+                    <p>We pride ourselves on <br> maintaining a safe, inclusive,  <br>and respectful environment.</p>
+                </div>
+                <div class="number">02</div>
+            </div>
+            <div class="grid-item get-successful">
+                <div class="number">03</div>
+                <div class="content-text">
+                    <h2>Accessible Location</h2>
+                    <p>Situated in a prime location<br>easily accessible by public transport and nearby College.</p>
+                </div>
+            </div>
+            <div class="grid-item get-successful">
+                <div class="number number-one">04</div>
+                <div class="content-text">
+                    <h2>Affordable Membership Plans</h2>
+                    <p>We offer flexible and affordable membership plans to suit different needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="plan-text">
+                <h1>Pricing Plan</h1>
+                <p>*All plans include access to the library's collection of physical books and magazines.</p>
+            </div>
+            <div class="pricing-card-section">
+                <div class="pricing-card">
+                    <h2 class="pricing-title">Silver</h2>
+                    <p class="pricing-price">Rs 500<span>/month</span></p>
+                    <ul class="pricing-features">
+                        <li>Access to reading seats</li>
+                        <li>Unlimited Wi-Fi</li>
+                        <li>Separate Power Point</li>
+                        <li>Separate Light Lamps</li>
+                    </ul>
+                    <button class="cta-ms">Choose Silver</button>
+                </div>
+            
+                <div class="pricing-card">
+                    <h2 class="pricing-title">Gold</h2>
+                    <p class="pricing-price">Rs 700<span>/month</span></p>
+                    <ul class="pricing-features">
+                        <li>Silver Plan +</li>
+                        <li>Fixed Seat</li>
+                        <li>Access to Books</li>
+                        <li>Access to Magazines</li>
+                    </ul>
+                    <button class="cta-ms">Choose Gold</button>
+                </div>
+            
+                <div class="pricing-card">
+                    <h2 class="pricing-title">Diamond</h2>
+                    <p class="pricing-price">Rs 1000<span>/month</span></p>
+                    <ul class="pricing-features">
+                        <li>Gold Plan +</li>
+                        <li>Fixed Seats 24x7</li>
+                        <li>Discounts on Printing</li>
+                        <li>Group Study Access</li>
+                    </ul>
+                    <button class="cta-ms">Choose Diamond</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="tilted-div">
+            <div class="tilted-section">
+                <div class="content">
+                    <h1>Find Your Perfect Reading Spot</h1>
+                    <p>Explore our comfortable reading seats and choose the perfect spot to dive into your favorite book or study in peace.</p>
+                    <button class="cta-call">Book Your Seat Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="registration-form-container" id="enroll-now">
+            <div class="registration-form-container-heading">
+                <h1>Start Your Journey with Cobalt</h1>
+                <p>Please fill out the form for any inquiry. We will contact you as soon as possible.</p>
+            </div>
+            <div class="inner-regi-form-container">
+                <div class="how-to-process-container">
+                    <div> 
+                        <h1 class="learn-color">LEARN</h1>
+                        <p>Get access to 100+ courses from renowned instructors.</p>
+                    </div>
+                    <div> 
+                        <h1 class="apply-color">APPLY</h1>
+                        <p>Build projects and boot playgrounds, all within your browser.</p>
+                    </div>
+                    <div> 
+                        <h1 class="grow-color">GROW</h1>
+                        <p>Upskill yourself with Cobalt and land your dream job.</p>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <form id="myForm" action="https://formspree.io/f/mqkrrjer" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Email ID" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">Contact:</label>
+                            <input type="text" id="contact" name="contact" placeholder="Mobile No." pattern="[0-9]{10}" title="Please enter a 10-digit phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Select Course:</label>
+                            <select id="course" name="course" required>
+                                <option value="">--Select a Course--</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="web-designing">Web Designing</option>
+                                <option value="ui-ux-design">UI/UX Design</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label> 
+                            <textarea id="message" name="message" placeholder="Write your message (optional)"></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section info">
+                <h3>Information</h3>
+                <p>Welcome to ABC Library. Explore our collection <br> of books and magazines, and find your perfect reading spot.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Details</h3>
+                <ul>
+                    <li><a href="mailto:info@abclibrary.com"><i class="fa fa-envelope"></i> info@abclibrary.com</a></li>
+                    <li><a href="tel:+91234867890"><i class="fa fa-phone"></i> +91 1234867890</a></li>
+                </ul>
+                <p>Address: 123 Library Lane, Booktown, BK 12345</p>
+            </div>
+            <div class="footer-section policies">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>&copy; 2024 ABC Library. All rights reserved.</p>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
